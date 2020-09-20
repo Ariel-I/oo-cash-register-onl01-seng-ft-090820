@@ -7,14 +7,15 @@ def initialize(total)
   @discount = discount
 end 
 
-def total 
+def total(current_total)
+  return current_total
 end 
 
 def add_item
 end 
 
 def apply_discount(amount)
-  amount = 20%
+ 
 end 
 
 def items
