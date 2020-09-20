@@ -14,6 +14,7 @@ def add_item(title, price, number_of_items = 0)
     while i < number_of_items
     @items << title 
     i += 1 
+  end 
   else 
     @items << title 
 end 
