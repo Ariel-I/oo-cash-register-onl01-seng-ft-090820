@@ -8,15 +8,16 @@ def initialize(discount=0)
   @items = []
 end 
 
-def total(current_total)
+def add_item(title, price, )
   
-end 
-
-def add_item
 end 
 
 def apply_discount(amount)
  
+end 
+
+def total(current_total)
+  
 end 
 
 def items
