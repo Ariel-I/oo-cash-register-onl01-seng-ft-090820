@@ -10,7 +10,7 @@ end
 
 def add_item(title, price, number_of_items = 1)
    @total += price*number_of_items
-   
+   number_of_items.
 
 def apply_discount()
   if @discount > 0  
