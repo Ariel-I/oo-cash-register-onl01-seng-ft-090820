@@ -24,7 +24,7 @@ end
 end 
 
 def apply_discount(amount)
- 
+  
 end 
 
 
