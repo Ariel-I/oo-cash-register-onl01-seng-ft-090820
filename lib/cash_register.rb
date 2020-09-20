@@ -23,7 +23,9 @@ end
   @total
 end 
 
-def apply_discount(amount)
+def apply_discount()
+  if discount > 1 
+    
   
 end 
 
