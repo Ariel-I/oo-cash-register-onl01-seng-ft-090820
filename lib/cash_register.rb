@@ -12,7 +12,10 @@ def add_item(title, price, number_of_items = 0)
   if number_of_items > 1 
     i = 0 
     while i < number_of_items
-    @
+    @items << title 
+    i += 1 
+  end 
+end 
 end 
 
 def apply_discount(amount)
