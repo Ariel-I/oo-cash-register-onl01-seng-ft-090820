@@ -9,9 +9,10 @@ def initialize(discount=0)
 end 
 
 def add_item(title, price, number_of_items = 1)
-   @total += price*number_of_items
+   self.total += price*number_of_items
    number_of_items.times do 
      items << title 
+   end 
      
 
 def apply_discount()
