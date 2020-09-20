@@ -24,7 +24,7 @@ end
 end 
 
 def apply_discount()
-  if discount > 1 
+  if @discount > 0  
     @discount = @discount
   
 end 
