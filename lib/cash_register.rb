@@ -13,7 +13,8 @@ end
 def add_item
 end 
 
-def apply_discount
+def apply_discount(amount)
+  amount = 20%
 end 
 
 def items
