@@ -8,7 +8,7 @@ def initialize(discount=0)
   @items = []
 end 
 
-def add_item(title, price, )
+def add_item(title, price, number_of_items = 0)
   
 end 
 
