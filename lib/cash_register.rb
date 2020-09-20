@@ -5,6 +5,7 @@ attr_accessor :total, :discount, :items
 def initialize(discount=0)
   @total = 0
   @discount = discount
+  @items = items
 end 
 
 def total(current_total)
