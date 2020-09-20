@@ -14,6 +14,7 @@ def add_item(title, price, number_of_items = 1)
      items << title 
    end 
    self.last_transaction = price*number_of_items
+ end 
      
 
 def apply_discount()
