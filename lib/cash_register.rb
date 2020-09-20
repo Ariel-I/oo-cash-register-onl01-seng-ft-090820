@@ -21,7 +21,6 @@ end
   @total += price*number_of_items
   @last_transaction = @total
   @total
-  
 end 
 
 def apply_discount(amount)
