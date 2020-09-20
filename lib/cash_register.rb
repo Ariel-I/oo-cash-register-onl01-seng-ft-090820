@@ -13,6 +13,7 @@ def add_item(title, price, number_of_items = 1)
    number_of_items.times do 
      items << title 
    end 
+   self.last_transaction = price*number_of_items
      
 
 def apply_discount()
