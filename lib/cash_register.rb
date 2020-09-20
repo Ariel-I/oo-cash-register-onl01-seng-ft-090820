@@ -8,7 +8,7 @@ def initialize(discount=0)
   @items = []
 end 
 
-def add_item(title, price, number_of_items = 0)
+def add_item(title, price, number_of_items = 1)
   if number_of_items > 1 
     i = 0 
     while i < number_of_items
