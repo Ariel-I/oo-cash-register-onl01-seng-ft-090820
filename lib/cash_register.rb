@@ -27,9 +27,7 @@ def apply_discount(amount)
  
 end 
 
-def total(current_total)
-  
-end 
+
 
 def items
 end 
